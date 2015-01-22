@@ -9,19 +9,18 @@ The structure and logis of submitted functions are based on the provide examples
     `cacheSolve` should retrieve the inverse from the cache.
 
 The result of testing fucntions here:
-
-> testM = matrix(1:4, 2, 2)
-> mcM = makeCacheMatrix(testM)
-> mcM$get()
-     [,1] [,2]
-[1,]    1    3
-[2,]    2    4
-> cacheSolve(mcM)
-     [,1] [,2]
-[1,]   -2  1.5
-[2,]    1 -0.5
-> cacheSolve(mcM)
-getting cached data
-     [,1] [,2]
-[1,]   -2  1.5
-[2,]    1 -0.5
+######> testM = matrix(1:4, 2, 2)
+######> mcM = makeCacheMatrix(testM)
+######> mcM$get()
+######     [,1] [,2]
+######[1,]    1    3
+######[2,]    2    4
+######> cacheSolve(mcM)
+######     [,1] [,2]
+######[1,]   -2  1.5
+######[2,]    1 -0.5
+######> cacheSolve(mcM)
+######getting cached data
+######     [,1] [,2]
+######[1,]   -2  1.5
+######[2,]    1 -0.5
