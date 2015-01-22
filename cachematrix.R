@@ -34,5 +34,3 @@ cacheSolve <- function(x, ...) {
   x$setinverse(iM)
   iM
 }
-
-
