@@ -10,7 +10,7 @@ The structure and logis of submitted functions are based on the provide examples
 
 The result of testing fucntions here:
 
-# > testM = matrix(1:4, 2, 2)
+#### > testM = matrix(1:4, 2, 2)
 # > mcM = makeCacheMatrix(testM)
 # > mcM$get()
 #      [,1] [,2]
